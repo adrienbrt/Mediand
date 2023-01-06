@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a77858c-6492-44e5-8ec0-5f5cc46b8eeb" name="Changes" comment="First commit">
+    <list default="true" id="7a77858c-6492-44e5-8ec0-5f5cc46b8eeb" name="Changes" comment="DAO Generic OK">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/DAOLaboratoire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/DAOMedicament.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/DAOPharmacie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/DAORegions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DAOGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DAOGeneric.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673008366912</updated>
-      <workItem from="1673008368218" duration="4165000" />
+      <workItem from="1673008368218" duration="5180000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1673011575899</created>
@@ -103,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673011575899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DAO Generic OK">
+      <created>1673013296186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673013296186</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="DAO Generic OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAO Generic OK" />
   </component>
 </project>
