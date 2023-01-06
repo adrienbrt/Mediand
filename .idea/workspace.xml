@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a77858c-6492-44e5-8ec0-5f5cc46b8eeb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/DAOGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/DAOIngredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Ingredients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Laboratoires.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Medicaments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Pharmacies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Regions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Utilisateurs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/HibernateSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="7a77858c-6492-44e5-8ec0-5f5cc46b8eeb" name="Changes" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DAOGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DAOGeneric.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -84,6 +71,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.com.haulmont.jpb.tools",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -106,11 +94,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673008366912</updated>
-      <workItem from="1673008368218" duration="2791000" />
+      <workItem from="1673008368218" duration="4165000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1673011575899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673011575899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="DAO_Implementation" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
