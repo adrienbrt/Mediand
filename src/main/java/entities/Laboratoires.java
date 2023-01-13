@@ -71,6 +71,17 @@ public class Laboratoires {
     }
 
     @Override
+    public String toString() {
+        return "Laboratoires{" +
+                "id='" + id + '\'' +
+                ", nom='" + nom + '\'' +
+                ", adresse='" + adresse + '\'' +
+                ", ville='" + ville + '\'' +
+                ", regionId='" + regionId + '\'' +
+                '}';
+    }
+
+    @Override
     public int hashCode() {
         return Objects.hash(id, nom, adresse, ville, regionId);
     }

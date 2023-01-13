@@ -17,8 +17,9 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("View/firstPage.fxml"));
-        stage.setTitle("Hello world");
-        stage.setScene(new Scene(root));
+        Scene scene = new Scene(root);
+        stage.setTitle("Mediand");
+        stage.setScene(scene);
         stage.show();
     }
     public static void testHibernate(){
@@ -33,8 +34,8 @@ public class App extends Application {
         List<Laboratoires> listIng = daolab.findAll();
         System.out.println(listIng);
     }
+
     public static void main(String[] args) {
-        testFindAll();
         launch(args);
     }
 
